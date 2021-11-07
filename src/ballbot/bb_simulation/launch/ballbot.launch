@@ -117,11 +117,7 @@
       <param name="child_frame_id" type="string" value="ball_link" />
     </node>
 
-<!-- start our controller: for the ballbot: or the drive controller -->
-<include file="$(find bb_control)/launch/start_control_node.launch">
-  <arg name="controller_type" value="$(arg controller_type)" />
-  <arg name="motors_controller_type" value="$(arg motors_controller_type)" />
-</include>
+
 
 
 <!-- real sense: tf publisher:
